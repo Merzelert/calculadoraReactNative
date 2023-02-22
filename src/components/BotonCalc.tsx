@@ -6,7 +6,7 @@ interface Props {//Propiedades del componente BotonCalc
     texto: string;
     color?: string;//? = opcional
     ancho?: boolean;
-    accion: (numeroTexto: string) => void;//? = opcional
+    accion: (numeroTexto: string) => void;
 }
 
 export const BotonCalc = ({ texto, color = '#2D2D2D', ancho = false, accion }: Props) => { //color = '#2D2D2D' = valor por defecto
